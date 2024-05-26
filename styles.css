@@ -56,6 +56,7 @@ li {
     flex: 1;
     max-width: 400px;
     margin-right: 200px;
+    text-align: start;
 }
 
 .top-content-text .title-box {
@@ -70,13 +71,13 @@ li {
 }
 
 
-.register-button {
+.top-content .register-button {
     background-color: #3882F6;
     color: white;
-    border-radius: 12px;
+    border-radius: 6px;
     padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
     margin-top: 10px;
 }
 
@@ -152,3 +153,92 @@ li {
     max-width: 1225px;
     text-align: right;
 }
+
+.banner-content {
+    display: flex;
+    background-color: white;
+    height: 300px;
+}
+
+
+.banner-textbox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 600px;
+    text-align: start;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.banner-container {
+    background-color: white;
+    width: 800px;
+    padding: 75px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 6px;
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    
+}
+
+.banner-title-box, .banner-text {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.banner-content .register-button {
+    border-style: solid;
+    border-color: white;
+    margin-top: 50px;
+}
+
+.banner-text {
+    text-align: start;
+}
+
+.banner-text strong {
+    background-color: #3882F6;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 150px;
+    width: 200px;
+    background-color: #3882F6;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.button-container .register-button {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 6px;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+}
+
+
